@@ -29,19 +29,22 @@ session.headers.update(HEADERS)
 def get_soup(url, retries=3):
     for attempt in range(retries):
         try:
-            time.sleep(random.uniform(1.5, 3))
+            # Shorter, randomized delay to speed up crawling
+            time.sleep(random.uniform(0.3, 0.8))
 
-            response = session.get(url, timeout=20)
+            response = session.get(url, timeout=12)
 
             if response.status_code == 429:
-                time.sleep(8)
+                # Back off a bit if rate-limited
+                time.sleep(5)
                 continue
 
             response.raise_for_status()
             return BeautifulSoup(response.text, "html.parser")
 
         except requests.RequestException:
-            time.sleep(4)
+            # Slight delay before retrying on network errors
+            time.sleep(2)
 
     return None
 
@@ -131,9 +134,20 @@ def scrape_product(url):
             try:
                 data = json.loads(script.string.strip())
 
-                if isinstance(data, dict) and data.get("@type") == "Product":
-                    product_data = data
-                    break
+                if isinstance(data, dict):
+
+                    # Case 1: Direct Product
+                    if data.get("@type") == "Product":
+                        product_data = data
+                        break
+
+                    # Case 2: @graph format (very common in WooCommerce, Magento)
+                    if "@graph" in data:
+                        for item in data["@graph"]:
+                            if isinstance(item, dict) and item.get("@type") == "Product":
+                                product_data = item
+                                break
+
 
                 if isinstance(data, list):
                     for item in data:
@@ -143,8 +157,40 @@ def scrape_product(url):
             except:
                 continue
 
+        # -------------------------------------------------
+        # If JSON-LD not found → try extracting manually
+        # -------------------------------------------------
         if not product_data:
-            return None
+            product_data = {}
+
+            # Try OpenGraph title
+            og_title = soup.find("meta", property="og:title")
+            if og_title:
+                product_data["name"] = og_title.get("content")
+
+            # Try meta description
+            og_desc = soup.find("meta", property="og:description")
+            if og_desc:
+                product_data["description"] = og_desc.get("content")
+
+            # Try product price meta
+            meta_price = soup.find("meta", property="product:price:amount")
+            if meta_price:
+                product_data["offers"] = {
+                    "price": meta_price.get("content"),
+                    "priceCurrency": soup.find("meta", property="product:price:currency")
+                }
+
+            # Try H1 as fallback name
+            if not product_data.get("name"):
+                h1 = soup.find("h1")
+                if h1:
+                    product_data["name"] = h1.get_text(strip=True)
+
+            # If still no name → not a product
+            if not product_data.get("name"):
+                return None
+
 
         name = product_data.get("name")
         description = product_data.get("description")
@@ -180,30 +226,93 @@ def scrape_product(url):
             rating = safe_float(aggregate.get("ratingValue"))
             review_count = safe_int(aggregate.get("reviewCount"))
 
-        # Fallback HTML extraction
+        # Fallbacks for rating / review count when JSON-LD is missing or incomplete
         if rating == 0:
-            rating_tag = soup.find("p", class_="rating-text")
+            # 1) schema.org AggregateRating in HTML
+            agg_html = soup.find(attrs={"itemtype": "http://schema.org/AggregateRating"})
+            if agg_html:
+                rv_tag = agg_html.find(attrs={"itemprop": "ratingValue"})
+                if rv_tag and rv_tag.get("content"):
+                    rating = safe_float(rv_tag["content"])
+                elif rv_tag:
+                    rating = safe_float(rv_tag.get_text(strip=True))
+
+                rc_tag = agg_html.find(attrs={"itemprop": "reviewCount"})
+                if rc_tag and rc_tag.get("content"):
+                    review_count = safe_int(rc_tag["content"])
+                elif rc_tag:
+                    review_count = safe_int(rc_tag.get_text(strip=True))
+
+        if rating == 0:
+            # 2) Generic jdgm/judge.me preview badge (data-average-rating / data-number-of-reviews)
+            badge = soup.find(attrs={"data-average-rating": True}) or soup.find(
+                attrs={"class": re.compile("jdgm-prev-badge", re.I)}
+            )
+            if badge:
+                rating = safe_float(badge.get("data-average-rating", 0))
+                if review_count == 0:
+                    review_count = safe_int(badge.get("data-number-of-reviews", 0))
+
+        if rating == 0:
+            # 3) Generic "rating" text fallback
+            rating_tag = soup.find("p", class_="rating-text") or soup.find(
+                attrs={"class": re.compile("rating", re.I)}
+            )
             if rating_tag:
-                match = re.search(r"([\d\.]+)", rating_tag.text)
+                match = re.search(r"([\d\.]+)", rating_tag.get_text(" ", strip=True))
                 if match:
-                    rating = float(match.group(1))
+                    rating = safe_float(match.group(1))
 
         if review_count == 0:
-            review_count_tag = soup.find("p", class_="rating-count")
+            # 4) Specific class-based fallback
+            review_count_tag = soup.find("p", class_="rating-count") or soup.find(
+                attrs={"class": re.compile("review", re.I)}
+            )
             if review_count_tag:
-                match = re.search(r"\((\d+)\)", review_count_tag.text)
+                # Patterns like "(123)", "123 reviews", "123 Ratings"
+                text = review_count_tag.get_text(" ", strip=True)
+                match = re.search(r"(\d+)\s*(reviews?|ratings?)?", text, re.I)
                 if match:
-                    review_count = int(match.group(1))
+                    review_count = safe_int(match.group(1))
 
         # ---------------- REVIEWS ----------------
         reviews = []
-        review_blocks = soup.find_all("div", class_="jdgm-rev")
 
-        for block in review_blocks[:3]:
-            body = block.find("div", class_="jdgm-rev__body")
+        # 1) schema.org reviewBody
+        for tag in soup.find_all(attrs={"itemprop": "reviewBody"}):
+            text = tag.get_text(" ", strip=True)
+            if text:
+                reviews.append(text)
 
-            if body:
-                reviews.append(body.text.strip())
+        # 2) Judge.me style blocks (Shopify apps)
+        if not reviews:
+            review_blocks = soup.find_all("div", class_="jdgm-rev")
+            for block in review_blocks[:5]:
+                body = block.find("div", class_="jdgm-rev__body")
+                if body:
+                    text = body.get_text(" ", strip=True)
+                    if text:
+                        reviews.append(text)
+
+        # 3) Generic fallback: any div/span with "review" in class name
+        if not reviews:
+            generic_blocks = soup.find_all(
+                lambda tag: tag.name in ["div", "p", "span"]
+                and tag.get("class")
+                and any("review" in c.lower() for c in tag.get("class"))
+            )
+            for block in generic_blocks[:5]:
+                text = block.get_text(" ", strip=True)
+                if text:
+                    reviews.append(text)
+        # ---------------- BRAND ----------------
+        brand = None
+        brand_data = product_data.get("brand")
+
+        if isinstance(brand_data, dict):
+            brand = brand_data.get("name")
+        elif isinstance(brand_data, str):
+            brand = brand_data
 
         return {
             "product_name": name,
@@ -213,8 +322,7 @@ def scrape_product(url):
             "rating": rating,
             "review_count": review_count,
             "reviews": reviews,   # 🔥 List instead of DataFrame
-            "brand": product_data.get("brand", {}).get("name")
-                     if isinstance(product_data.get("brand"), dict) else None,
+            "brand": brand,
             "description": description,
             "product_url": normalize(url)
         }
@@ -244,7 +352,8 @@ def crawl_stream(start_url, max_products=50):
     visited_products = set()
     count = 0
 
-    with ThreadPoolExecutor(max_workers=2) as executor:
+    # Higher concurrency for faster crawling
+    with ThreadPoolExecutor(max_workers=8) as executor:
 
         futures = {
             executor.submit(scrape_product, url): url
