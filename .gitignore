@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Python cache files
 __pycache__/
 *.pyc
@@ -16,3 +17,8 @@ venv/
 
 # Logs / temp
 *.log
+=======
+env/
+__pycache__/
+*.pyc
+>>>>>>> 3dcc40c18d67219c7c2db70a4f355c3c0200606a

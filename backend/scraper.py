@@ -85,6 +85,7 @@ def safe_int(x) -> int:
         return int(re.sub(r"[^\d]", "", str(x)))
     except Exception:
         return 0
+<<<<<<< HEAD
     
 
 def is_block_page(soup) -> bool:
@@ -107,6 +108,8 @@ def is_block_page(soup) -> bool:
     ]
 
     return any(signal in text for signal in blocked_signals)
+=======
+>>>>>>> 3dcc40c18d67219c7c2db70a4f355c3c0200606a
 
 # ─────────────────────────────────────────────
 # LINK CLASSIFICATION  (FIX 1: added /catalogue/)
@@ -647,6 +650,7 @@ async def _async_crawl(start_url: str, max_products: int, result_queue: queue.Qu
                 return
             seen_products.add(url)
             soup = await smart_fetch(url, ctx, scroll=False)
+<<<<<<< HEAD
 
             if soup:
 
@@ -672,6 +676,14 @@ async def _async_crawl(start_url: str, max_products: int, result_queue: queue.Qu
                 result_queue.put(product)
                 count += 1
                 logger.info(f"✅ [{count}/{max_products}] {product['product_name']}")
+=======
+            if soup:
+                product = parse_product(soup, url)
+                if product:
+                    result_queue.put(product)
+                    count += 1
+                    logger.info(f"✅ [{count}/{max_products}] {product['product_name']}")
+>>>>>>> 3dcc40c18d67219c7c2db70a4f355c3c0200606a
 
         async def process_links_parallel(links: set):
             pending = [u for u in links if u not in seen_products]
