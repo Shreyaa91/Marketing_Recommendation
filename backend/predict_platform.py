@@ -1,54 +1,40 @@
-import joblib
-import pandas as pd
-import numpy as np
+from pathlib import Path
 
-# Load the separate files saved by main_model.py
-model = joblib.load("random_forest_model.pkl")
-onehot_encoder = joblib.load("onehot_encoder.pkl")
-label_encoder = joblib.load("label_encoder.pkl")
+import joblib
+import numpy as np
+import pandas as pd
+
+BASE_DIR = Path(__file__).resolve().parent
+MODEL_PATH = BASE_DIR / "random_forest_pipeline.pkl"
+
+pipeline = joblib.load(MODEL_PATH)
+
+
+def _normalize_product(product: dict) -> pd.DataFrame:
+    row = {
+        "price": product.get("price", 0),
+        "rating": product.get("rating", 0),
+        "review_count": product.get("review_count", 0),
+        "avg_sentiment": product.get("avg_sentiment", 0),
+        "discount": product.get("discount", 0),
+        "category": str(product.get("category", "unknown")).lower().strip(),
+        "brand": str(product.get("brand", "unknown")).lower().strip(),
+    }
+    return pd.DataFrame([row])
+
 
 def predict_platform(product):
-    # 1. Prepare Numeric Data
-    numeric_data = [
-        product.get("price", 0),
-        product.get("rating", 0),
-        product.get("review_count", 0),
-        product.get("avg_sentiment", 0),
-        product.get("discount", 0)
-    ]
-    
-    # 2. Prepare Categorical Data (Must match the training columns)
-    cat_features = pd.DataFrame([{
-        "category": product.get("category", "Unknown"),
-        "brand": product.get("brand", "Unknown")
-    }])
-    
-    # 3. Transform Categorical Data
-    cat_encoded = onehot_encoder.transform(cat_features)
-    
-    # 4. Combine (Numeric + Encoded)
-    final_features = np.hstack([[numeric_data], cat_encoded])
+    sample = _normalize_product(product)
 
-    # # 5. Predict
-    # prediction_idx = model.predict(final_features)[0]
-    # platform = label_encoder.inverse_transform([prediction_idx])[0]
+    proba = pipeline.predict_proba(sample)[0]
+    classes = pipeline.named_steps["model"].classes_
 
-    # # 6. Confidence
-    # proba = model.predict_proba(final_features)[0]
-    # confidence_score = proba[prediction_idx]
-
-    # return platform, float(confidence_score)
-    proba = model.predict_proba(final_features)[0]
-
-    # sort probabilities (highest first)
     sorted_idx = np.argsort(proba)[::-1]
-
     primary_idx = sorted_idx[0]
-    secondary_idx = sorted_idx[1]
+    secondary_idx = sorted_idx[1] if len(sorted_idx) > 1 else sorted_idx[0]
 
-    primary_platform = label_encoder.inverse_transform([primary_idx])[0]
-    secondary_platform = label_encoder.inverse_transform([secondary_idx])[0]
-
+    primary_platform = classes[primary_idx]
+    secondary_platform = classes[secondary_idx]
     primary_conf = float(proba[primary_idx])
     secondary_conf = float(proba[secondary_idx])
 
