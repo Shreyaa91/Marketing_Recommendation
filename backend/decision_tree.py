@@ -22,11 +22,11 @@ from sklearn.preprocessing import OneHotEncoder
 from sklearn.tree import DecisionTreeClassifier
 
 BASE_DIR = Path(__file__).resolve().parent
-DATASET_PATH = BASE_DIR / "marketing_dataset_clean.csv"
+DATASET_PATH = BASE_DIR / "marketing_dataset_balanced_800.csv"
 MODEL_PATH = BASE_DIR / "decision_tree_pipeline.pkl"
 
 NUMERIC_COLS = ["price", "rating", "review_count", "avg_sentiment", "discount"]
-CAT_COLS = ["category", "brand"]
+CAT_COLS = ["category"]
 TARGET_COL = "primary_platform"
 FEATURE_COLS = NUMERIC_COLS + CAT_COLS
 TEST_SIZE = 0.25
@@ -37,7 +37,7 @@ def load_dataset() -> pd.DataFrame:
     df = pd.read_csv(DATASET_PATH)
     print(f"Dataset loaded: {df.shape}")
 
-    required = {"product_name", "secondary_platform", TARGET_COL, *FEATURE_COLS}
+    required = {"secondary_platform", TARGET_COL, *FEATURE_COLS}
     missing = required.difference(df.columns)
     if missing:
         raise ValueError(f"Missing required columns: {sorted(missing)}")
@@ -50,26 +50,6 @@ def load_dataset() -> pd.DataFrame:
     df.loc[:, TARGET_COL] = df[TARGET_COL].fillna("").astype(str).str.strip()
     df = df[df[TARGET_COL].ne("")].reset_index(drop=True)
     return df
-
-
-def balance_training_data(X_train: pd.DataFrame, y_train: pd.Series, random_state: int = 42):
-    train_frame = X_train.copy().reset_index(drop=True)
-    train_frame["_target"] = y_train.reset_index(drop=True)
-
-    class_counts = train_frame["_target"].value_counts()
-    target_count = int(class_counts.median())
-    target_count = max(target_count, int(class_counts.min()))
-
-    balanced_parts = []
-    for _, group in train_frame.groupby("_target"):
-        replace = len(group) < target_count
-        balanced_parts.append(group.sample(n=target_count, replace=replace, random_state=random_state))
-
-    balanced = pd.concat(balanced_parts, ignore_index=True)
-    balanced = balanced.sample(frac=1, random_state=random_state).reset_index(drop=True)
-
-    y_balanced = balanced.pop("_target")
-    return balanced[FEATURE_COLS], y_balanced, class_counts, y_balanced.value_counts()
 
 
 def build_pipeline() -> Pipeline:
@@ -147,8 +127,8 @@ def evaluate_model(model, X_train, X_test, y_train, y_test):
     print(f"Training Accuracy: {train_acc:.4f}")
     print(f"Testing Accuracy:  {test_acc:.4f}")
 
-    top2_acc = top_2_accuracy(model, X_test, y_test)
-    print(f"\nTop-2 Accuracy: {top2_acc:.4f}")
+    # top2_acc = top_2_accuracy(model, X_test, y_test)
+    # print(f"\nTop-2 Accuracy: {top2_acc:.4f}")
 
     print("\nClassification Report:\n")
     print(classification_report(y_test, y_pred, zero_division=0))
@@ -181,24 +161,16 @@ def train_decision_tree(df: pd.DataFrame):
         stratify=y,
     )
 
-    print("\nClass distribution before balancing:")
-    print(y_train_raw.value_counts())
-
-    X_train, y_train, _, after_counts = balance_training_data(X_train_raw, y_train_raw)
-
-    print("\nClass distribution after balancing:")
-    print(after_counts)
-
     print("\nTraining Decision Tree...")
     start_time = time.time()
 
     model = build_pipeline()
-    model.fit(X_train, y_train)
+    model.fit(X_train_raw, y_train_raw)
 
     training_time = time.time() - start_time
     print(f"Training Time: {training_time:.4f} seconds")
 
-    evaluate_model(model, X_train, X_test, y_train, y_test)
+    evaluate_model(model, X_train_raw, X_test, y_train_raw, y_test)
     return model
 
 

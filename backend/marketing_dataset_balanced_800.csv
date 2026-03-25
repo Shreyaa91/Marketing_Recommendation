@@ -1,0 +1,801 @@
+price,rating,review_count,avg_sentiment,category,discount,primary_platform,secondary_platform
+549.4,4.81,1528,0.345,haircare,0.53,Marketplace Ads,Instagram
+402.01,4.77,1180,0.529,generic,3.13,Marketplace Ads,Instagram
+36.45,5.0,0,0.551,generic,1.06,Email,WhatsApp
+315.98,4.84,394,-0.072,skincare,0.35,Instagram,Influencer Marketing
+58.92,5.0,2,-0.073,books,0.33,Email,Google Ads
+396.75,4.84,1284,0.389,generic,4.38,Marketplace Ads,Instagram
+65.87,2.94,1,-0.077,generic,0.0,Google Ads,Instagram
+540.24,4.83,151,-0.004,skincare,0.0,Instagram,Influencer Marketing
+598.97,4.86,1362,0.312,haircare,4.92,Marketplace Ads,Instagram
+195.67,5.0,13,0.954,skincare,0.0,Instagram,Influencer Marketing
+41.71,5.0,6,0.02,books,0.0,Email,Google Ads
+1199.22,4.96,356,0.389,haircare,0.0,Google Ads,Instagram
+201.54,4.78,869,0.374,generic,2.84,Marketplace Ads,Instagram
+355.87,4.82,36,0.471,generic,4.61,Email,WhatsApp
+11.2,2.98,0,-0.068,generic,0.0,Google Ads,Instagram
+57.72,1.96,6,-0.55,generic,0.0,Google Ads,Instagram
+1026.12,4.7,126,0.318,haircare,0.0,Google Ads,Instagram
+736.97,3.8,37,0.082,generic,0.0,Google Ads,Instagram
+175.46,4.82,1289,0.322,haircare,0.0,Marketplace Ads,Instagram
+349.64,4.79,110,0.513,haircare,4.7,Instagram,Influencer Marketing
+200.05,4.79,1011,0.245,haircare,4.27,Marketplace Ads,Instagram
+341.35,4.27,134,0.173,skincare,1.88,Instagram,Influencer Marketing
+318.78,4.44,805,0.217,generic,0.0,Marketplace Ads,Instagram
+354.24,4.78,904,0.352,haircare,0.0,Marketplace Ads,Instagram
+74.07,1.04,0,-0.078,generic,0.0,Google Ads,Instagram
+42.35,5.0,0,0.006,books,0.06,Email,Google Ads
+61.13,2.97,0,0.041,generic,0.0,Google Ads,Instagram
+212.29,4.82,1509,0.346,haircare,0.0,Marketplace Ads,Instagram
+379.4,4.82,1817,0.501,generic,0.0,Marketplace Ads,Instagram
+381.81,4.75,1623,0.558,skincare,0.0,Instagram,Influencer Marketing
+983.42,4.66,5894,0.513,generic,0.43,Google Ads,Marketplace Ads
+790.09,4.9,14,0.218,generic,0.0,Email,WhatsApp
+358.17,4.9,186,0.256,skincare,0.0,Instagram,Influencer Marketing
+731.69,4.17,127,-0.048,generic,0.0,Google Ads,Instagram
+34.3,5.0,11,0.435,generic,2.37,Email,WhatsApp
+496.28,5.0,29,0.5,generic,0.0,Email,WhatsApp
+660.41,4.68,905,0.291,haircare,0.0,Marketplace Ads,Instagram
+27.69,1.98,0,-0.407,generic,0.0,Google Ads,Instagram
+561.6,4.65,1450,0.412,haircare,0.0,Marketplace Ads,Instagram
+644.42,4.99,502,0.469,haircare,0.0,Marketplace Ads,Instagram
+26.47,4.91,0,0.54,generic,0.0,Email,WhatsApp
+17.1,1.08,6,-0.079,generic,0.06,Google Ads,Instagram
+32.69,5.0,3,0.56,generic,1.9,Email,WhatsApp
+931.75,4.95,44,0.459,generic,0.77,Google Ads,Email
+316.96,4.73,0,-0.418,skincare,0.0,Instagram,Influencer Marketing
+23.33,4.66,0,0.222,skincare,0.0,Instagram,Influencer Marketing
+200.75,4.84,6,0.019,skincare,0.0,Instagram,Influencer Marketing
+525.37,4.82,79,0.346,generic,0.46,Instagram,Influencer Marketing
+659.05,5.0,734,0.538,haircare,0.0,Marketplace Ads,Instagram
+619.22,3.91,0,0.282,skincare,0.0,Instagram,Influencer Marketing
+1091.48,4.52,141,-0.05,skincare,0.0,Google Ads,Instagram
+20.81,5.0,0,0.568,generic,1.86,Email,WhatsApp
+224.19,4.75,1226,0.366,haircare,0.0,Marketplace Ads,Instagram
+1737.63,4.17,89,0.236,skincare,2.76,Google Ads,Instagram
+47.91,1.06,0,-0.068,generic,0.0,Google Ads,Instagram
+51.35,1.99,0,0.023,generic,0.0,Google Ads,Instagram
+754.36,5.0,366,0.693,skincare,0.0,Instagram,Influencer Marketing
+1227.64,5.0,479,0.357,skincare,0.0,Google Ads,Instagram
+18.24,5.0,2,0.507,generic,0.0,Email,WhatsApp
+257.55,5.0,7,0.475,generic,2.72,Email,WhatsApp
+610.81,4.99,47,0.209,skincare,0.0,Instagram,Influencer Marketing
+669.41,5.0,798,0.454,haircare,0.0,Marketplace Ads,Instagram
+548.59,4.83,1145,0.456,haircare,3.62,Marketplace Ads,Instagram
+37.26,3.94,12,-0.054,generic,0.0,Google Ads,Instagram
+58.31,0.98,0,-0.006,generic,0.0,Google Ads,Instagram
+421.5,4.86,605,0.754,skincare,0.77,Instagram,Influencer Marketing
+37.73,5.0,0,0.481,generic,0.0,Email,WhatsApp
+300.3,3.99,534,-0.013,generic,2.29,Marketplace Ads,Google Ads
+22.84,1.01,3,-0.023,generic,1.66,Google Ads,Instagram
+330.65,4.76,3,0.674,generic,2.35,Email,WhatsApp
+1124.87,4.67,189,0.945,generic,0.0,Instagram,Influencer Marketing
+457.27,5.0,6,0.591,generic,0.0,Email,WhatsApp
+532.19,4.63,3147,0.493,generic,3.13,Marketplace Ads,Instagram
+18.08,0.91,0,0.654,books,2.18,Email,WhatsApp
+74.32,5.0,0,0.625,generic,2.04,Email,WhatsApp
+333.79,5.0,7,0.484,generic,0.0,Email,WhatsApp
+807.19,4.82,22,0.408,haircare,0.0,Google Ads,Email
+467.07,4.67,298,0.434,generic,0.0,Instagram,Influencer Marketing
+540.14,4.46,558,-0.01,skincare,3.84,Instagram,Influencer Marketing
+689.29,4.76,75,0.455,generic,0.76,Instagram,Influencer Marketing
+384.04,4.83,56,0.302,skincare,1.19,Instagram,Influencer Marketing
+335.22,4.72,8,0.623,generic,0.0,Email,WhatsApp
+720.28,4.94,31,0.465,generic,0.0,Email,WhatsApp
+250.81,5.0,14,0.463,generic,1.97,Email,WhatsApp
+747.6,4.68,60,0.556,skincare,1.13,Instagram,Influencer Marketing
+424.31,4.99,1401,0.526,generic,0.53,Marketplace Ads,Instagram
+185.82,4.8,855,0.382,generic,2.89,Marketplace Ads,Instagram
+269.82,4.38,193,0.021,generic,0.0,Google Ads,Instagram
+1.69,1.91,0,0.037,generic,4.69,Google Ads,Instagram
+73.47,4.96,0,-0.08,books,2.26,Email,Google Ads
+349.32,4.69,1100,0.262,haircare,2.03,Marketplace Ads,Instagram
+380.38,4.91,1064,0.435,generic,3.39,Marketplace Ads,Instagram
+1232.97,4.64,0,0.145,skincare,0.0,Google Ads,Instagram
+886.24,3.89,11,0.076,generic,0.0,Google Ads,Instagram
+521.18,4.79,1476,0.363,haircare,0.0,Marketplace Ads,Instagram
+329.81,4.39,2398,0.654,generic,0.0,Marketplace Ads,Instagram
+567.42,5.0,850,0.405,haircare,4.39,Marketplace Ads,Instagram
+520.45,4.67,2997,0.357,generic,0.0,Marketplace Ads,Instagram
+52.6,5.0,0,-0.068,books,0.0,Email,Google Ads
+375.19,4.41,2152,0.585,generic,4.25,Marketplace Ads,Instagram
+323.53,4.93,23,0.572,generic,0.27,Email,WhatsApp
+324.27,4.69,2473,0.117,skincare,2.57,Instagram,Influencer Marketing
+58.53,1.0,1,0.612,books,0.52,Email,WhatsApp
+63.92,5.0,0,0.022,books,4.71,Email,Google Ads
+683.7,5.0,47,0.56,generic,0.0,Email,WhatsApp
+32.79,3.99,1,0.028,generic,3.68,Google Ads,Instagram
+1265.17,4.82,810,0.429,skincare,0.0,Google Ads,Instagram
+466.03,4.56,3783,0.449,generic,0.0,Marketplace Ads,Instagram
+27.96,3.11,13,0.025,generic,2.47,Google Ads,Instagram
+1177.4,4.89,9,0.096,haircare,0.0,Google Ads,Email
+482.53,4.79,327,0.406,haircare,2.51,Instagram,Influencer Marketing
+303.19,4.83,1169,0.194,skincare,3.0,Instagram,Influencer Marketing
+48.04,0.99,13,0.683,books,1.25,Email,WhatsApp
+40.62,0.94,2,0.599,books,0.85,Email,Instagram
+208.91,4.73,999,0.35,generic,1.89,Marketplace Ads,Instagram
+416.15,4.81,12,0.656,generic,0.0,Email,WhatsApp
+554.63,4.79,488,0.248,haircare,0.87,Instagram,Influencer Marketing
+388.95,4.71,1209,0.301,generic,0.0,Marketplace Ads,Instagram
+465.96,4.69,368,0.115,generic,0.87,Google Ads,Instagram
+24.17,3.02,10,-0.042,generic,3.76,Google Ads,Instagram
+945.76,3.92,14,-0.192,haircare,0.0,Google Ads,Instagram
+1115.39,3.38,7,0.299,skincare,0.0,Google Ads,Instagram
+508.41,4.95,14,0.505,generic,0.0,Email,WhatsApp
+324.52,4.89,2131,0.42,generic,0.0,Marketplace Ads,Instagram
+1073.52,4.31,21,0.387,generic,0.0,Google Ads,Instagram
+832.12,4.74,14,0.524,haircare,0.0,Google Ads,Instagram
+261.18,4.75,948,-0.073,skincare,2.35,Instagram,Influencer Marketing
+24.56,4.94,5,0.479,generic,0.0,Email,WhatsApp
+365.63,4.68,33,0.016,generic,2.84,Google Ads,Instagram
+447.01,4.52,2737,0.689,generic,0.0,Marketplace Ads,Instagram
+494.89,4.68,938,0.327,haircare,1.85,Marketplace Ads,Instagram
+791.74,4.89,0,0.006,generic,0.0,Google Ads,Email
+49.95,0.97,0,0.651,books,0.0,Email,WhatsApp
+544.8,4.83,1034,0.261,haircare,0.0,Marketplace Ads,Instagram
+1581.83,4.11,69,0.146,skincare,0.0,Google Ads,Instagram
+242.72,4.84,58,0.194,skincare,0.0,Instagram,Influencer Marketing
+272.64,4.6,833,0.306,generic,1.6,Marketplace Ads,Instagram
+1356.24,4.83,568,0.452,skincare,0.0,Google Ads,Instagram
+272.62,4.5,1030,0.2,generic,1.48,Marketplace Ads,Instagram
+712.06,5.0,718,0.401,skincare,4.95,Instagram,Influencer Marketing
+38.31,1.01,0,0.07,books,3.78,Google Ads,Email
+586.22,4.83,655,0.415,skincare,0.0,Instagram,Influencer Marketing
+748.91,4.93,577,0.37,skincare,0.92,Instagram,Influencer Marketing
+983.41,4.9,389,0.517,generic,0.0,Google Ads,Instagram
+23.29,5.0,7,-0.054,books,0.0,Email,Google Ads
+394.04,4.79,74,-0.057,skincare,0.0,Instagram,Influencer Marketing
+1.0,4.91,14,0.443,generic,2.82,Email,WhatsApp
+879.12,4.69,3,0.494,haircare,2.14,Google Ads,Instagram
+392.79,4.88,1904,0.263,generic,4.23,Marketplace Ads,Instagram
+484.06,4.8,236,0.354,skincare,0.0,Instagram,Influencer Marketing
+369.8,4.48,2943,0.583,generic,0.0,Marketplace Ads,Instagram
+359.04,4.81,35,0.48,generic,0.0,Email,WhatsApp
+763.23,4.89,745,0.398,haircare,2.02,Marketplace Ads,Instagram
+294.6,4.65,750,0.208,generic,4.55,Marketplace Ads,Instagram
+777.82,4.84,553,0.474,skincare,0.0,Instagram,Influencer Marketing
+525.55,4.71,276,0.535,haircare,4.25,Instagram,Influencer Marketing
+449.38,4.62,2659,0.394,generic,1.93,Marketplace Ads,Instagram
+362.29,4.96,1447,0.603,generic,4.64,Marketplace Ads,Instagram
+32.51,0.94,0,0.351,generic,0.0,Instagram,Influencer Marketing
+502.06,4.9,1007,0.392,haircare,1.65,Marketplace Ads,Instagram
+813.56,4.71,21,0.391,haircare,0.0,Google Ads,Instagram
+371.61,4.86,1441,0.536,generic,2.25,Marketplace Ads,Instagram
+966.25,4.75,10,-0.048,skincare,0.64,Google Ads,Instagram
+959.24,5.0,4,-0.039,generic,3.13,Google Ads,Email
+38.07,5.0,0,-0.018,generic,0.0,Google Ads,Email
+707.85,4.91,21,0.233,generic,1.86,Email,WhatsApp
+46.27,5.0,2,0.073,books,2.39,Email,Google Ads
+76.19,5.0,0,0.07,generic,4.92,Google Ads,Email
+276.6,4.39,196,-0.03,generic,0.07,Google Ads,Instagram
+608.79,4.97,975,0.42,skincare,0.0,Instagram,Influencer Marketing
+18.83,4.9,0,-0.021,generic,0.0,Google Ads,Email
+244.75,4.03,635,-0.06,generic,2.1,Marketplace Ads,Google Ads
+564.83,4.91,27,0.485,generic,0.74,Email,WhatsApp
+1068.02,4.99,18,0.195,haircare,0.0,Google Ads,Email
+1243.81,4.48,39,0.475,generic,0.0,Google Ads,Instagram
+436.34,4.64,4803,0.427,generic,0.0,Marketplace Ads,Instagram
+51.46,0.9,0,0.581,books,0.0,Email,Instagram
+360.93,4.85,1270,0.511,generic,0.0,Marketplace Ads,Instagram
+301.51,4.74,2375,0.473,haircare,0.0,Marketplace Ads,Instagram
+461.36,4.88,401,-0.047,skincare,0.0,Instagram,Influencer Marketing
+404.9,4.74,2828,0.465,generic,1.48,Marketplace Ads,Instagram
+357.76,4.77,64,0.356,skincare,1.4,Instagram,Influencer Marketing
+34.8,0.89,6,0.686,books,0.19,Email,WhatsApp
+270.09,4.12,768,-0.031,generic,0.0,Marketplace Ads,Google Ads
+682.18,4.82,703,0.552,haircare,0.0,Marketplace Ads,Instagram
+8.45,4.93,8,-0.019,books,2.52,Email,Google Ads
+418.93,4.88,318,0.633,skincare,4.77,Instagram,Influencer Marketing
+267.35,4.0,781,0.066,generic,0.0,Marketplace Ads,Google Ads
+452.12,4.63,48,0.254,skincare,1.11,Instagram,Influencer Marketing
+409.12,4.77,1412,0.283,haircare,0.0,Marketplace Ads,Instagram
+619.26,4.68,633,0.848,generic,2.39,Instagram,Influencer Marketing
+487.59,4.94,852,0.355,skincare,0.0,Instagram,Influencer Marketing
+1024.52,4.96,501,0.405,generic,3.22,Google Ads,Marketplace Ads
+695.55,4.84,401,0.629,skincare,0.0,Instagram,Influencer Marketing
+416.5,4.17,163,0.091,skincare,0.0,Instagram,Influencer Marketing
+631.71,4.85,32,0.537,generic,3.69,Email,WhatsApp
+205.82,4.79,1468,0.255,haircare,1.34,Marketplace Ads,Instagram
+38.91,0.99,0,0.698,books,0.0,Email,WhatsApp
+668.94,4.98,731,0.5,haircare,0.0,Marketplace Ads,Instagram
+382.71,4.76,2275,0.159,skincare,4.34,Instagram,Influencer Marketing
+949.97,5.0,0,0.478,generic,0.62,Google Ads,Email
+317.81,4.99,8,0.454,generic,0.0,Email,WhatsApp
+736.69,4.98,28,0.563,generic,3.31,Email,WhatsApp
+508.67,4.72,553,0.356,skincare,0.0,Instagram,Influencer Marketing
+17.41,4.9,0,0.55,generic,0.0,Email,WhatsApp
+46.59,4.98,13,0.02,books,1.63,Email,Google Ads
+343.49,4.92,28,0.508,generic,0.0,Email,WhatsApp
+758.27,4.75,722,0.379,haircare,0.0,Marketplace Ads,Instagram
+1494.54,3.81,1,0.605,skincare,1.62,Google Ads,Instagram
+672.27,5.0,12,0.226,skincare,0.0,Instagram,Influencer Marketing
+527.13,4.83,1116,0.474,haircare,0.0,Marketplace Ads,Instagram
+32.0,0.92,0,0.611,books,0.0,Email,WhatsApp
+387.82,4.92,19,0.488,generic,1.6,Email,WhatsApp
+27.12,4.95,0,0.047,books,0.0,Email,Google Ads
+378.35,4.63,0,0.682,generic,1.09,Email,WhatsApp
+20.98,4.89,5,0.521,generic,0.0,Email,WhatsApp
+334.67,4.62,2523,-0.055,skincare,0.0,Instagram,Influencer Marketing
+543.13,5.0,0,0.609,generic,0.7,Email,WhatsApp
+660.71,4.76,2,-0.224,haircare,0.0,Google Ads,Instagram
+377.74,4.84,1825,0.585,haircare,0.0,Marketplace Ads,Instagram
+609.55,4.78,1031,0.398,haircare,1.45,Marketplace Ads,Instagram
+21.89,4.9,14,0.446,generic,0.3,Email,WhatsApp
+369.08,4.72,1199,0.376,generic,0.0,Marketplace Ads,Instagram
+296.19,4.06,255,-0.086,generic,0.0,Google Ads,Instagram
+5.28,5.0,0,0.582,generic,2.67,Email,WhatsApp
+599.59,4.78,19,-0.017,skincare,3.91,Instagram,Influencer Marketing
+56.04,4.99,0,-0.023,books,1.7,Email,Google Ads
+391.66,4.86,1557,0.577,generic,2.1,Marketplace Ads,Instagram
+702.87,4.83,506,0.365,haircare,0.42,Marketplace Ads,Instagram
+63.86,4.9,6,0.541,generic,0.82,Email,WhatsApp
+504.97,4.48,777,0.067,skincare,0.82,Instagram,Influencer Marketing
+178.28,4.83,0,0.021,generic,1.28,Google Ads,Email
+37.59,1.02,5,0.698,books,1.43,Email,WhatsApp
+9.27,2.93,8,0.011,generic,2.73,Google Ads,Instagram
+376.67,4.68,0,0.187,generic,0.0,Google Ads,Instagram
+69.59,1.05,0,0.067,books,0.0,Google Ads,Email
+625.97,4.07,116,0.312,generic,0.37,Instagram,Influencer Marketing
+760.89,4.94,0,0.047,generic,0.0,Google Ads,Email
+56.0,4.89,0,-0.063,books,0.07,Email,Google Ads
+33.85,3.1,0,-0.016,generic,0.0,Google Ads,Instagram
+383.99,4.44,444,0.005,skincare,0.0,Instagram,Influencer Marketing
+337.09,4.75,63,0.07,skincare,2.01,Instagram,Influencer Marketing
+213.89,4.78,678,0.387,generic,0.0,Marketplace Ads,Instagram
+598.91,4.55,9,0.238,generic,0.0,Instagram,Influencer Marketing
+510.68,4.98,10,0.487,generic,0.0,Email,WhatsApp
+374.72,4.67,2520,0.1,skincare,2.83,Instagram,Influencer Marketing
+7.25,5.0,0,-0.019,books,0.0,Email,Google Ads
+971.18,4.99,321,0.185,generic,1.14,Google Ads,Instagram
+16.64,4.98,0,0.065,books,0.84,Email,Google Ads
+1.18,3.91,10,0.069,generic,0.0,Google Ads,Instagram
+565.78,4.8,112,0.624,generic,0.0,Instagram,Influencer Marketing
+574.11,4.66,1016,0.353,haircare,0.14,Marketplace Ads,Instagram
+41.9,1.89,15,-0.004,generic,0.0,Google Ads,Instagram
+981.19,4.91,679,0.438,generic,1.52,Google Ads,Marketplace Ads
+289.86,4.77,71,0.291,generic,0.0,Instagram,Influencer Marketing
+31.93,2.06,7,-0.031,generic,0.0,Google Ads,Instagram
+633.18,5.0,12,0.572,generic,0.0,Email,WhatsApp
+665.98,4.81,532,0.514,haircare,3.63,Marketplace Ads,Instagram
+536.37,4.82,12,-0.24,haircare,2.01,Google Ads,Email
+21.42,3.91,13,0.047,generic,4.61,Google Ads,Instagram
+24.6,4.99,13,-0.061,books,0.0,Email,Google Ads
+24.06,0.88,0,-0.025,generic,3.4,Google Ads,Instagram
+296.04,4.7,2447,0.474,haircare,0.0,Marketplace Ads,Instagram
+342.06,4.79,2209,0.604,haircare,2.56,Marketplace Ads,Instagram
+385.3,4.63,61,0.516,generic,0.0,Instagram,Influencer Marketing
+1133.67,4.89,72,0.469,haircare,0.0,Google Ads,Instagram
+688.2,4.2,126,0.049,generic,0.0,Google Ads,Instagram
+69.23,5.0,0,0.599,generic,0.0,Email,WhatsApp
+670.3,4.92,107,0.434,generic,4.49,Instagram,Influencer Marketing
+420.61,4.79,2078,0.374,generic,0.0,Marketplace Ads,Instagram
+50.29,4.92,6,0.567,generic,0.0,Email,WhatsApp
+550.45,4.99,16,0.515,generic,0.0,Email,WhatsApp
+428.82,4.89,385,0.333,generic,0.0,Instagram,Influencer Marketing
+1204.58,4.73,0,0.519,haircare,0.0,Google Ads,Instagram
+488.69,4.84,346,-0.035,skincare,0.0,Instagram,Influencer Marketing
+651.95,5.0,32,0.229,generic,0.88,Email,WhatsApp
+282.05,4.79,64,0.35,generic,0.0,Instagram,Influencer Marketing
+505.39,4.91,822,0.42,skincare,0.0,Instagram,Influencer Marketing
+34.72,3.97,0,-0.173,generic,4.03,Google Ads,Instagram
+382.15,4.87,128,0.336,generic,4.88,Instagram,Influencer Marketing
+347.59,4.29,1458,0.046,skincare,0.0,Instagram,Influencer Marketing
+18.53,1.03,5,-0.069,generic,1.99,Google Ads,Instagram
+34.81,0.93,0,-0.016,generic,3.77,Google Ads,Instagram
+509.48,4.97,210,0.252,skincare,1.93,Instagram,Influencer Marketing
+758.63,4.62,65,0.559,generic,0.0,Instagram,Influencer Marketing
+779.78,5.0,35,0.233,generic,0.29,Email,WhatsApp
+290.1,4.58,865,0.328,generic,4.67,Marketplace Ads,Instagram
+44.59,2.92,13,0.076,generic,0.0,Google Ads,Instagram
+778.23,4.95,43,0.449,generic,2.06,Email,WhatsApp
+614.7,4.67,0,-0.13,haircare,0.0,Google Ads,Instagram
+382.01,4.79,2011,0.485,skincare,0.6,Instagram,Influencer Marketing
+343.35,4.73,742,0.431,generic,0.0,Marketplace Ads,Instagram
+34.7,5.0,0,-0.007,books,0.0,Email,Google Ads
+380.23,4.82,1042,0.309,generic,0.0,Marketplace Ads,Instagram
+362.6,4.81,62,0.265,skincare,0.89,Instagram,Influencer Marketing
+487.73,4.96,0,0.614,generic,0.0,Email,WhatsApp
+37.65,5.0,14,-0.033,books,3.7,Email,Google Ads
+201.48,3.09,1,0.08,haircare,4.36,Google Ads,Instagram
+40.26,5.0,0,0.021,books,2.99,Email,Google Ads
+491.61,4.62,704,0.058,skincare,0.0,Instagram,Influencer Marketing
+358.86,4.81,37,0.542,generic,0.0,Email,WhatsApp
+589.8,4.55,6934,0.275,skincare,0.0,Instagram,Influencer Marketing
+642.73,4.63,1047,0.265,haircare,0.0,Marketplace Ads,Instagram
+619.22,5.0,919,0.408,haircare,2.29,Marketplace Ads,Instagram
+444.73,4.55,199,0.026,skincare,4.13,Instagram,Influencer Marketing
+543.06,4.68,180,0.234,skincare,0.0,Instagram,Influencer Marketing
+516.84,4.82,89,0.244,generic,0.0,Instagram,Influencer Marketing
+353.25,4.87,0,0.653,generic,3.61,Email,WhatsApp
+436.49,4.77,0,0.509,haircare,4.56,Instagram,Influencer Marketing
+43.68,5.0,13,0.578,generic,2.19,Email,WhatsApp
+606.04,4.74,19,0.694,generic,0.0,Email,WhatsApp
+52.29,5.0,11,-0.073,books,0.0,Email,Google Ads
+370.21,4.69,2313,0.546,haircare,0.75,Marketplace Ads,Instagram
+623.32,4.8,574,0.572,haircare,0.0,Marketplace Ads,Instagram
+520.5,4.88,218,-0.035,skincare,2.85,Instagram,Influencer Marketing
+490.89,4.99,0,0.692,generic,0.0,Email,WhatsApp
+241.93,4.98,10,0.023,skincare,3.28,Instagram,Influencer Marketing
+697.66,4.86,14,0.178,skincare,0.0,Instagram,Influencer Marketing
+510.52,5.0,9,0.446,generic,4.14,Email,WhatsApp
+674.62,4.85,1481,0.294,haircare,0.0,Marketplace Ads,Instagram
+335.83,4.79,1920,0.41,generic,2.18,Marketplace Ads,Instagram
+30.78,2.1,12,0.031,generic,0.67,Google Ads,Instagram
+572.84,4.74,1449,0.387,haircare,0.36,Marketplace Ads,Instagram
+325.37,4.84,276,-0.083,skincare,0.0,Instagram,Influencer Marketing
+356.58,5.0,0,0.392,generic,0.0,Email,WhatsApp
+32.06,4.96,0,0.056,books,1.04,Email,Google Ads
+971.01,4.89,0,0.478,generic,3.51,Google Ads,Email
+13.29,1.92,0,0.046,generic,0.66,Google Ads,Instagram
+570.04,4.85,814,0.339,skincare,3.97,Instagram,Influencer Marketing
+697.95,4.98,589,0.451,skincare,2.1,Instagram,Influencer Marketing
+903.71,4.83,278,0.271,generic,3.26,Google Ads,Instagram
+360.48,4.75,336,0.705,skincare,3.35,Instagram,Influencer Marketing
+947.36,4.86,598,0.752,generic,0.0,Instagram,Influencer Marketing
+672.56,4.84,1274,0.276,haircare,0.0,Marketplace Ads,Instagram
+524.93,4.82,937,0.463,haircare,0.0,Marketplace Ads,Instagram
+359.02,4.67,41,-0.055,generic,2.73,Google Ads,Instagram
+508.43,4.75,202,0.327,skincare,1.86,Instagram,Influencer Marketing
+1.0,5.0,7,0.465,generic,0.0,Email,WhatsApp
+46.28,1.11,10,-0.068,generic,3.18,Google Ads,Instagram
+11.46,4.96,0,0.461,generic,0.0,Email,WhatsApp
+65.33,1.99,15,-0.02,generic,2.02,Google Ads,Instagram
+332.93,4.43,0,0.305,generic,0.0,Instagram,Influencer Marketing
+430.36,4.72,3663,0.35,generic,0.37,Marketplace Ads,Instagram
+195.53,4.91,1057,0.317,generic,0.0,Marketplace Ads,Instagram
+376.7,4.72,2060,0.349,generic,0.0,Marketplace Ads,Instagram
+527.52,4.71,241,0.088,generic,2.48,Google Ads,Instagram
+782.38,4.91,577,0.437,haircare,3.18,Marketplace Ads,Instagram
+1253.59,4.81,43,0.506,haircare,1.62,Google Ads,Email
+52.87,5.0,5,0.046,generic,0.0,Google Ads,Email
+485.79,5.0,16,0.691,generic,0.0,Email,WhatsApp
+246.76,4.76,84,0.174,skincare,1.85,Instagram,Influencer Marketing
+238.93,4.89,94,0.097,generic,4.52,Google Ads,Instagram
+443.26,5.0,2,0.297,skincare,0.67,Instagram,Influencer Marketing
+54.4,1.92,0,0.038,generic,3.83,Google Ads,Instagram
+48.13,5.0,0,0.505,generic,0.0,Email,WhatsApp
+183.14,4.81,1551,0.288,haircare,0.17,Marketplace Ads,Instagram
+44.33,2.92,2,-0.033,generic,0.0,Google Ads,Instagram
+768.09,5.0,33,0.487,generic,2.92,Email,WhatsApp
+465.36,4.91,9,0.575,generic,0.0,Email,WhatsApp
+412.97,4.42,1374,0.047,skincare,0.0,Instagram,Influencer Marketing
+172.77,4.72,1149,0.306,generic,0.0,Marketplace Ads,Instagram
+69.2,3.01,0,0.063,generic,0.37,Google Ads,Instagram
+389.5,4.67,1,0.636,generic,1.16,Email,WhatsApp
+470.93,4.78,164,0.336,skincare,0.76,Instagram,Influencer Marketing
+769.16,5.0,38,0.251,generic,0.0,Email,WhatsApp
+61.4,2.09,0,-0.029,generic,4.47,Google Ads,Instagram
+538.98,4.62,47,-0.008,generic,0.0,Google Ads,Instagram
+355.84,4.86,0,0.583,generic,0.0,Email,WhatsApp
+295.43,4.75,1452,0.516,haircare,0.15,Marketplace Ads,Instagram
+336.34,4.79,0,0.644,generic,1.49,Email,WhatsApp
+18.47,4.99,3,0.036,books,4.09,Email,Google Ads
+750.39,5.0,547,0.407,haircare,1.54,Marketplace Ads,Instagram
+45.58,1.12,0,-0.058,books,0.0,Google Ads,Email
+35.92,1.92,0,-0.044,generic,3.58,Google Ads,Instagram
+495.53,4.94,8,0.482,generic,0.45,Email,WhatsApp
+342.07,4.83,845,0.293,generic,0.0,Marketplace Ads,Instagram
+407.57,4.76,1172,0.266,haircare,1.0,Marketplace Ads,Instagram
+326.94,4.74,2043,0.372,generic,0.0,Marketplace Ads,Instagram
+558.89,4.74,123,0.339,generic,4.32,Instagram,Influencer Marketing
+28.5,1.94,0,-0.554,generic,0.63,Google Ads,Instagram
+523.53,4.93,528,0.495,haircare,0.32,Marketplace Ads,Instagram
+46.14,5.0,5,-0.005,books,1.2,Email,Google Ads
+69.24,5.0,0,0.079,generic,0.0,Google Ads,Email
+417.33,4.85,855,0.399,haircare,0.0,Marketplace Ads,Instagram
+678.5,4.38,3141,0.664,skincare,3.44,Instagram,Influencer Marketing
+799.23,4.86,99,0.385,skincare,4.24,Instagram,Influencer Marketing
+49.54,3.89,13,-0.046,generic,2.98,Google Ads,Instagram
+48.48,1.92,0,0.067,generic,4.74,Google Ads,Instagram
+492.06,4.65,13,0.482,skincare,0.0,Instagram,Influencer Marketing
+492.34,4.93,35,0.468,generic,0.0,Email,WhatsApp
+396.72,4.63,1447,0.507,haircare,0.8,Marketplace Ads,Instagram
+616.36,4.9,604,0.416,haircare,1.85,Marketplace Ads,Instagram
+218.75,4.76,1138,0.347,generic,3.96,Marketplace Ads,Instagram
+29.78,4.66,0,0.372,skincare,4.61,Instagram,Influencer Marketing
+52.04,1.99,0,-0.044,generic,0.0,Google Ads,Instagram
+40.96,3.92,0,-0.057,generic,0.0,Google Ads,Instagram
+579.31,4.85,32,0.685,skincare,0.0,Instagram,Influencer Marketing
+1183.72,4.98,0,0.492,generic,0.0,Google Ads,Email
+69.25,2.91,0,0.005,generic,0.0,Google Ads,Instagram
+491.79,4.72,1272,0.421,skincare,1.18,Instagram,Influencer Marketing
+560.83,5.0,3,0.61,generic,3.34,Email,WhatsApp
+1226.34,3.7,9,-0.063,haircare,4.17,Google Ads,Instagram
+906.77,5.0,2,0.059,generic,0.0,Google Ads,Email
+507.26,4.79,1037,0.425,skincare,2.71,Instagram,Influencer Marketing
+11.13,1.11,0,0.054,generic,0.0,Google Ads,Instagram
+65.31,4.97,0,0.642,generic,2.55,Email,WhatsApp
+493.29,4.78,1331,0.332,haircare,0.0,Marketplace Ads,Instagram
+310.75,4.86,1797,0.457,haircare,4.97,Marketplace Ads,Instagram
+301.25,4.99,3,0.476,generic,0.0,Email,WhatsApp
+69.1,5.0,0,0.561,generic,3.67,Email,WhatsApp
+607.46,4.76,131,0.36,skincare,0.0,Instagram,Influencer Marketing
+276.21,5.0,17,0.034,skincare,1.74,Instagram,Influencer Marketing
+519.73,5.0,12,0.685,generic,0.0,Email,WhatsApp
+406.62,4.81,45,0.438,skincare,4.18,Instagram,Influencer Marketing
+166.68,4.7,1204,0.431,generic,4.28,Marketplace Ads,Instagram
+271.95,4.67,1260,0.066,skincare,0.0,Instagram,Influencer Marketing
+671.77,4.8,709,0.309,haircare,0.0,Marketplace Ads,Instagram
+16.44,0.92,15,0.687,books,4.68,Email,WhatsApp
+934.09,5.0,427,0.419,haircare,0.0,Google Ads,Instagram
+456.12,4.62,854,0.123,skincare,0.0,Instagram,Influencer Marketing
+273.29,4.81,84,0.624,generic,1.19,Instagram,Influencer Marketing
+640.85,5.0,564,0.578,haircare,3.53,Marketplace Ads,Instagram
+554.1,5.0,22,0.387,generic,0.0,Email,WhatsApp
+270.16,4.89,1,0.493,generic,0.0,Email,WhatsApp
+328.62,4.68,2082,0.438,generic,0.0,Marketplace Ads,Instagram
+539.84,4.74,1549,0.387,haircare,0.0,Marketplace Ads,Instagram
+21.28,5.0,4,0.526,generic,0.81,Email,WhatsApp
+601.96,4.69,275,0.24,skincare,1.91,Instagram,Influencer Marketing
+36.85,4.99,2,0.592,generic,0.0,Email,WhatsApp
+399.57,4.68,0,-0.013,skincare,0.0,Instagram,Influencer Marketing
+625.34,4.94,631,0.431,haircare,2.14,Marketplace Ads,Instagram
+792.64,4.84,378,0.656,skincare,0.0,Instagram,Influencer Marketing
+964.16,4.89,54,0.331,generic,4.53,Google Ads,Instagram
+27.29,5.0,0,-0.027,generic,1.14,Google Ads,Email
+325.57,4.67,1943,0.334,generic,0.0,Marketplace Ads,Instagram
+51.79,0.99,0,0.627,books,0.0,Email,WhatsApp
+579.98,4.23,269,0.07,generic,2.56,Google Ads,Instagram
+59.93,4.97,7,0.562,generic,0.0,Email,WhatsApp
+1103.94,4.76,2524,0.59,haircare,0.0,Google Ads,Marketplace Ads
+662.49,4.13,164,-0.066,generic,1.19,Google Ads,Instagram
+40.75,1.94,0,0.018,generic,0.0,Google Ads,Instagram
+40.58,4.9,0,0.002,books,0.0,Email,Google Ads
+68.13,5.0,14,0.571,generic,0.0,Email,WhatsApp
+444.36,4.57,4077,0.434,generic,1.56,Marketplace Ads,Instagram
+53.64,2.94,7,-0.034,generic,4.41,Google Ads,Instagram
+830.78,4.81,12,0.382,haircare,0.12,Google Ads,Email
+416.07,4.89,1786,0.425,generic,2.08,Marketplace Ads,Instagram
+68.59,4.98,0,0.079,books,0.29,Email,Google Ads
+509.45,4.87,24,0.528,skincare,4.18,Instagram,Influencer Marketing
+288.48,4.9,111,0.517,generic,0.0,Instagram,Influencer Marketing
+1063.19,5.0,1001,0.363,generic,3.74,Google Ads,Marketplace Ads
+1119.22,5.0,2719,0.386,skincare,0.87,Google Ads,Instagram
+69.37,5.0,7,0.517,generic,0.0,Email,WhatsApp
+435.39,4.67,113,0.427,generic,0.0,Instagram,Influencer Marketing
+41.65,4.96,4,0.625,generic,1.85,Email,WhatsApp
+33.33,4.96,11,0.633,generic,2.49,Email,WhatsApp
+60.53,5.0,0,0.594,generic,2.91,Email,WhatsApp
+1142.03,4.83,0,0.447,generic,0.63,Google Ads,Email
+35.92,5.0,0,0.059,generic,0.0,Google Ads,Email
+451.47,4.73,4022,0.421,generic,0.0,Marketplace Ads,Instagram
+748.4,4.23,23,0.377,generic,3.74,Instagram,Influencer Marketing
+512.8,4.69,22,0.432,haircare,0.0,Instagram,Influencer Marketing
+582.33,4.66,35,0.19,generic,4.68,Google Ads,Instagram
+331.95,4.71,1821,0.471,generic,2.37,Marketplace Ads,Instagram
+273.73,5.0,12,0.389,generic,1.7,Email,WhatsApp
+36.15,1.11,0,0.621,books,1.86,Email,WhatsApp
+670.51,4.08,32,0.008,skincare,0.0,Instagram,Influencer Marketing
+501.48,4.84,28,0.68,skincare,0.0,Instagram,Influencer Marketing
+879.18,4.79,48,0.303,generic,0.0,Google Ads,Instagram
+192.77,4.72,18,0.048,skincare,0.0,Instagram,Influencer Marketing
+15.95,1.03,0,-0.061,generic,0.0,Google Ads,Instagram
+338.39,4.67,1,0.687,generic,0.31,Email,WhatsApp
+634.49,4.64,194,0.668,skincare,4.31,Instagram,Influencer Marketing
+50.37,4.9,0,0.079,books,0.0,Email,Google Ads
+528.08,3.87,11,0.049,generic,1.11,Google Ads,Instagram
+766.04,4.79,247,0.555,skincare,0.0,Instagram,Influencer Marketing
+62.14,5.0,13,-0.032,books,0.0,Email,Google Ads
+408.18,4.93,20,0.852,generic,0.58,Instagram,Influencer Marketing
+991.76,4.99,681,0.554,generic,3.73,Google Ads,Marketplace Ads
+1096.78,3.55,0,0.277,skincare,1.8,Google Ads,Instagram
+529.32,5.0,0,0.629,generic,1.07,Email,WhatsApp
+370.04,4.85,0,0.552,generic,1.24,Email,WhatsApp
+616.0,4.51,164,0.17,generic,2.33,Google Ads,Instagram
+1629.75,4.96,616,0.349,haircare,0.0,Google Ads,Marketplace Ads
+229.12,4.81,81,0.428,generic,0.0,Instagram,Influencer Marketing
+722.2,4.84,267,0.394,skincare,1.07,Instagram,Influencer Marketing
+355.74,4.65,134,0.594,haircare,0.0,Instagram,Influencer Marketing
+457.93,4.77,263,0.39,generic,0.0,Instagram,Influencer Marketing
+415.99,4.83,1366,0.554,generic,0.0,Marketplace Ads,Instagram
+11.6,4.91,13,0.058,books,0.0,Email,Google Ads
+582.88,5.0,2,0.618,generic,1.73,Email,WhatsApp
+592.99,4.71,558,0.845,generic,0.17,Instagram,Influencer Marketing
+537.49,4.73,904,0.299,haircare,4.57,Marketplace Ads,Instagram
+611.64,4.99,413,0.554,skincare,0.0,Instagram,Influencer Marketing
+2.2,5.0,6,-0.014,books,0.0,Email,Google Ads
+53.71,5.0,0,-0.058,books,2.9,Email,Google Ads
+664.36,4.17,186,-0.065,generic,4.72,Google Ads,Instagram
+356.87,4.8,2138,0.471,generic,0.0,Marketplace Ads,Instagram
+361.21,4.99,345,0.756,skincare,0.0,Instagram,Influencer Marketing
+735.68,4.68,0,0.458,skincare,0.0,Instagram,Influencer Marketing
+150.53,4.93,710,0.372,generic,0.66,Marketplace Ads,Instagram
+485.48,4.95,53,0.531,skincare,0.11,Instagram,Influencer Marketing
+783.21,4.83,537,0.395,haircare,4.78,Marketplace Ads,Instagram
+447.56,4.68,236,0.271,generic,4.31,Instagram,Influencer Marketing
+22.45,5.0,0,0.477,generic,0.0,Email,WhatsApp
+443.77,4.92,798,0.411,generic,0.0,Marketplace Ads,Instagram
+32.08,0.95,0,0.604,books,0.0,Email,WhatsApp
+309.65,4.72,1569,0.292,generic,3.88,Marketplace Ads,Instagram
+612.96,4.89,8,0.7,generic,1.11,Email,WhatsApp
+788.99,4.79,640,0.376,haircare,0.62,Marketplace Ads,Instagram
+18.34,5.0,15,0.007,books,0.0,Email,Google Ads
+33.59,4.94,0,0.037,books,3.16,Email,Google Ads
+717.04,4.88,396,0.5,skincare,0.0,Instagram,Influencer Marketing
+37.39,5.0,0,0.537,generic,1.19,Email,WhatsApp
+395.39,4.78,3059,0.489,generic,0.0,Marketplace Ads,Instagram
+316.19,4.44,691,0.323,generic,3.85,Marketplace Ads,Instagram
+60.92,1.0,11,0.4,generic,0.0,Instagram,Influencer Marketing
+342.21,4.72,24,0.01,generic,4.58,Google Ads,Instagram
+362.15,4.72,143,0.465,generic,3.96,Instagram,Influencer Marketing
+17.89,2.89,0,0.01,generic,0.59,Google Ads,Instagram
+360.0,4.81,3,0.612,generic,3.53,Email,WhatsApp
+539.8,4.96,1132,0.378,haircare,1.44,Marketplace Ads,Instagram
+397.52,4.69,150,0.556,generic,0.0,Instagram,Influencer Marketing
+1259.19,4.94,32,0.118,haircare,0.0,Google Ads,Email
+28.71,4.9,11,-0.059,generic,3.6,Google Ads,Email
+31.87,4.95,9,0.63,generic,3.99,Email,WhatsApp
+325.82,4.85,2124,0.406,generic,2.48,Marketplace Ads,Instagram
+10.55,0.9,0,0.052,generic,0.0,Google Ads,Instagram
+540.05,4.94,885,0.451,skincare,1.8,Instagram,Influencer Marketing
+370.19,4.77,1204,0.277,haircare,0.0,Marketplace Ads,Instagram
+466.27,4.54,2965,0.453,generic,0.53,Marketplace Ads,Instagram
+337.33,4.87,1016,0.531,generic,0.0,Marketplace Ads,Instagram
+709.65,4.97,30,0.273,generic,1.23,Email,WhatsApp
+348.81,4.69,1225,0.399,generic,0.0,Marketplace Ads,Instagram
+324.79,4.73,1996,0.471,haircare,4.28,Marketplace Ads,Instagram
+412.0,4.68,287,0.308,generic,4.57,Instagram,Influencer Marketing
+417.26,4.68,1262,0.271,haircare,0.0,Marketplace Ads,Instagram
+371.82,4.65,1143,0.259,haircare,0.0,Marketplace Ads,Instagram
+208.1,4.79,1168,0.38,generic,3.46,Marketplace Ads,Instagram
+514.07,4.9,0,0.561,generic,2.15,Email,WhatsApp
+348.52,4.84,1335,0.508,generic,3.38,Marketplace Ads,Instagram
+24.0,4.92,5,0.578,generic,0.0,Email,WhatsApp
+575.58,4.89,585,0.535,skincare,0.0,Instagram,Influencer Marketing
+571.31,4.83,356,-0.076,skincare,0.0,Instagram,Influencer Marketing
+333.61,4.8,925,0.368,haircare,0.93,Marketplace Ads,Instagram
+520.59,5.0,8,0.65,generic,3.38,Email,WhatsApp
+68.15,4.98,7,0.013,generic,0.0,Google Ads,Email
+435.13,4.83,1008,0.401,haircare,1.47,Marketplace Ads,Instagram
+435.08,4.84,21,0.594,generic,0.0,Email,WhatsApp
+676.25,4.82,349,0.565,skincare,0.0,Instagram,Influencer Marketing
+533.46,4.73,0,0.424,generic,3.51,Instagram,Influencer Marketing
+70.66,5.0,3,0.036,books,3.85,Email,Google Ads
+358.58,4.74,11,0.604,generic,2.52,Email,WhatsApp
+738.66,4.97,35,0.551,generic,1.79,Email,WhatsApp
+468.02,4.8,36,0.53,skincare,0.0,Instagram,Influencer Marketing
+400.23,4.79,935,0.402,generic,0.0,Marketplace Ads,Instagram
+33.61,5.0,14,0.051,generic,4.55,Google Ads,Email
+305.16,4.81,854,0.382,haircare,1.67,Marketplace Ads,Instagram
+493.65,4.75,1549,0.286,haircare,0.0,Marketplace Ads,Instagram
+761.9,5.0,46,0.464,generic,0.0,Email,WhatsApp
+383.36,4.87,1639,0.33,generic,4.06,Marketplace Ads,Instagram
+2.25,5.0,0,0.437,generic,0.0,Email,WhatsApp
+586.29,5.0,565,0.386,skincare,4.04,Instagram,Influencer Marketing
+29.45,2.1,0,0.019,generic,0.0,Google Ads,Instagram
+34.11,2.01,11,0.046,generic,3.94,Google Ads,Instagram
+392.08,4.67,2740,0.488,generic,3.2,Marketplace Ads,Instagram
+422.57,4.87,324,0.349,generic,0.0,Instagram,Influencer Marketing
+268.22,4.8,318,-0.098,skincare,0.0,Instagram,Influencer Marketing
+22.37,3.11,4,0.045,generic,0.0,Google Ads,Instagram
+1014.79,5.0,51,0.614,generic,0.0,Google Ads,Instagram
+471.9,4.8,92,0.397,generic,0.0,Instagram,Influencer Marketing
+54.59,1.12,4,0.563,books,2.08,Email,Instagram
+376.19,4.49,2371,0.597,generic,4.56,Marketplace Ads,Instagram
+525.19,4.98,653,0.542,haircare,1.56,Marketplace Ads,Instagram
+442.36,4.82,349,0.221,skincare,0.0,Instagram,Influencer Marketing
+259.03,4.88,931,0.372,skincare,0.0,Instagram,Influencer Marketing
+606.22,4.73,4,0.67,generic,0.0,Email,WhatsApp
+33.38,4.96,0,0.021,books,2.96,Email,Google Ads
+428.95,4.86,769,0.7,skincare,0.0,Instagram,Influencer Marketing
+512.32,4.76,1246,0.36,haircare,0.0,Marketplace Ads,Instagram
+434.26,4.87,672,0.359,generic,3.07,Marketplace Ads,Instagram
+1215.1,4.82,9,0.581,haircare,0.0,Google Ads,Email
+544.02,4.63,1,0.86,generic,0.0,Instagram,Influencer Marketing
+1081.17,4.89,442,0.502,generic,0.0,Google Ads,Instagram
+63.61,5.0,2,0.624,generic,0.0,Email,WhatsApp
+67.41,4.91,0,-0.023,books,2.88,Email,Google Ads
+344.82,4.68,1907,0.317,generic,0.0,Marketplace Ads,Instagram
+27.5,4.93,0,0.63,generic,1.45,Email,WhatsApp
+435.63,4.65,4879,0.404,generic,0.73,Marketplace Ads,Instagram
+57.18,4.96,0,0.078,books,2.39,Email,Google Ads
+1048.17,4.81,0,0.383,generic,0.0,Google Ads,Email
+998.43,4.86,976,0.492,generic,3.23,Google Ads,Marketplace Ads
+579.95,4.98,234,0.3,skincare,0.0,Instagram,Influencer Marketing
+8.42,5.0,3,0.475,generic,4.84,Email,WhatsApp
+624.24,5.0,8,0.387,generic,0.0,Email,WhatsApp
+814.15,4.43,182,0.44,generic,1.11,Google Ads,Instagram
+310.14,4.55,420,0.386,skincare,1.94,Instagram,Influencer Marketing
+227.3,4.76,7,0.131,haircare,0.0,Google Ads,Instagram
+281.9,4.92,2,1.0,skincare,0.0,Instagram,Influencer Marketing
+623.43,4.8,926,0.431,haircare,0.0,Marketplace Ads,Instagram
+21.63,5.0,11,0.5,generic,3.88,Email,WhatsApp
+576.11,4.65,13,0.265,generic,0.0,Instagram,Influencer Marketing
+409.53,4.87,2115,0.354,generic,0.0,Marketplace Ads,Instagram
+404.04,4.78,1211,0.571,generic,1.59,Marketplace Ads,Instagram
+510.22,4.54,3349,0.426,generic,0.0,Marketplace Ads,Instagram
+991.89,4.78,66,0.545,generic,0.0,Google Ads,Instagram
+355.31,4.73,839,0.295,haircare,4.56,Marketplace Ads,Instagram
+593.2,5.0,895,0.379,haircare,0.25,Marketplace Ads,Instagram
+512.86,5.0,1213,0.445,haircare,0.0,Marketplace Ads,Instagram
+541.73,4.86,1293,0.344,haircare,0.0,Marketplace Ads,Instagram
+913.93,5.0,916,0.495,generic,0.0,Google Ads,Marketplace Ads
+319.98,4.84,1765,0.393,generic,4.64,Marketplace Ads,Instagram
+657.49,4.96,29,0.23,skincare,0.0,Instagram,Influencer Marketing
+1149.39,4.72,12,0.651,haircare,4.78,Google Ads,Email
+367.91,4.61,2032,0.678,generic,4.63,Marketplace Ads,Instagram
+575.02,4.22,208,0.268,generic,0.0,Instagram,Influencer Marketing
+556.55,4.61,6926,0.326,skincare,0.0,Instagram,Influencer Marketing
+38.15,0.89,0,0.615,books,0.0,Email,WhatsApp
+46.72,3.91,0,0.043,generic,3.84,Google Ads,Instagram
+548.15,4.74,1212,0.391,haircare,4.46,Marketplace Ads,Instagram
+587.96,4.85,513,0.493,haircare,0.27,Marketplace Ads,Instagram
+868.48,3.65,12,0.149,generic,4.72,Google Ads,Instagram
+811.75,4.79,18,0.506,haircare,0.0,Google Ads,Instagram
+264.56,4.13,668,-0.064,generic,3.18,Marketplace Ads,Google Ads
+50.7,2.0,0,-0.014,generic,2.02,Google Ads,Instagram
+52.33,0.89,0,0.213,generic,0.0,Instagram,Influencer Marketing
+495.91,4.69,1126,0.303,haircare,0.4,Marketplace Ads,Instagram
+36.55,3.05,7,0.072,generic,4.49,Google Ads,Instagram
+1053.43,4.85,2,-0.004,skincare,4.29,Google Ads,Instagram
+406.11,4.8,738,0.387,generic,0.0,Marketplace Ads,Instagram
+6.23,0.89,0,-0.025,generic,0.0,Google Ads,Instagram
+1170.46,4.72,24,0.474,generic,0.0,Google Ads,Instagram
+48.08,1.05,10,0.001,generic,1.35,Google Ads,Instagram
+1108.96,4.62,137,0.21,haircare,0.83,Google Ads,Instagram
+407.11,4.92,834,0.286,generic,3.37,Marketplace Ads,Instagram
+499.76,4.83,1057,0.298,haircare,1.42,Marketplace Ads,Instagram
+39.94,0.89,0,0.416,generic,4.06,Instagram,Influencer Marketing
+38.15,2.0,0,-0.018,generic,0.0,Google Ads,Instagram
+303.93,4.74,89,0.264,generic,0.36,Instagram,Influencer Marketing
+378.67,4.8,794,0.327,generic,2.94,Marketplace Ads,Instagram
+640.93,4.63,876,0.354,haircare,2.91,Marketplace Ads,Instagram
+248.25,4.19,662,-0.052,generic,0.0,Marketplace Ads,Google Ads
+332.42,4.84,989,0.429,generic,0.0,Marketplace Ads,Instagram
+549.93,5.0,533,0.467,haircare,2.85,Marketplace Ads,Instagram
+651.64,4.65,930,0.325,haircare,0.0,Marketplace Ads,Instagram
+399.37,4.72,1530,0.356,haircare,0.0,Marketplace Ads,Instagram
+694.02,4.75,1356,0.265,haircare,2.35,Marketplace Ads,Instagram
+407.6,4.79,107,0.263,skincare,0.0,Instagram,Influencer Marketing
+222.5,4.77,0,0.304,haircare,0.61,Instagram,Influencer Marketing
+15.04,5.0,0,0.497,generic,1.89,Email,WhatsApp
+343.93,4.73,44,0.026,generic,2.41,Google Ads,Instagram
+39.72,4.91,4,0.617,generic,0.55,Email,WhatsApp
+662.33,4.71,26,0.062,skincare,0.0,Instagram,Influencer Marketing
+632.31,4.85,12,0.656,generic,0.52,Email,WhatsApp
+342.05,4.85,56,0.305,skincare,0.0,Instagram,Influencer Marketing
+24.64,0.91,13,0.563,books,0.0,Email,Instagram
+554.94,4.74,1457,0.389,haircare,2.39,Marketplace Ads,Instagram
+587.69,4.67,1554,0.352,haircare,3.63,Marketplace Ads,Instagram
+327.94,3.97,692,-0.07,generic,3.17,Marketplace Ads,Google Ads
+470.47,4.69,4001,0.47,generic,4.43,Marketplace Ads,Instagram
+675.0,4.97,39,0.568,generic,3.64,Email,WhatsApp
+1312.79,4.65,164,0.858,generic,2.77,Instagram,Influencer Marketing
+2.77,3.99,1,0.053,generic,0.0,Google Ads,Instagram
+430.22,4.72,1023,0.314,skincare,2.89,Instagram,Influencer Marketing
+707.33,4.21,171,0.257,generic,4.28,Instagram,Influencer Marketing
+758.99,4.94,91,0.291,skincare,3.83,Instagram,Influencer Marketing
+288.49,4.16,716,0.071,generic,1.75,Marketplace Ads,Google Ads
+1629.14,4.89,574,0.374,haircare,4.34,Google Ads,Marketplace Ads
+18.16,2.09,6,0.063,generic,0.0,Google Ads,Instagram
+65.44,3.06,5,-0.026,generic,0.0,Google Ads,Instagram
+381.65,4.71,2794,0.474,generic,4.82,Marketplace Ads,Instagram
+1036.8,4.93,740,0.448,generic,4.82,Google Ads,Marketplace Ads
+33.16,4.91,0,-0.033,books,1.29,Email,Google Ads
+407.52,4.73,1697,0.438,generic,1.25,Marketplace Ads,Instagram
+403.15,4.66,1557,0.54,haircare,0.0,Marketplace Ads,Instagram
+521.3,4.61,3406,0.444,generic,0.0,Marketplace Ads,Instagram
+618.44,4.01,34,0.001,skincare,2.34,Instagram,Influencer Marketing
+41.65,5.0,0,0.538,generic,3.56,Email,WhatsApp
+394.69,4.82,287,0.253,skincare,1.95,Instagram,Influencer Marketing
+294.01,4.48,8,0.323,generic,0.0,Instagram,Influencer Marketing
+511.13,4.58,1066,0.402,skincare,4.15,Instagram,Influencer Marketing
+34.92,5.0,0,-0.009,books,0.0,Email,Google Ads
+58.43,5.0,2,0.069,books,0.0,Email,Google Ads
+16.38,2.11,0,-0.072,generic,0.0,Google Ads,Instagram
+529.98,5.0,6,0.634,generic,1.09,Email,WhatsApp
+35.26,5.0,0,0.058,books,0.0,Email,Google Ads
+320.4,4.13,734,0.064,generic,0.04,Marketplace Ads,Google Ads
+1084.84,4.81,77,0.455,haircare,0.0,Google Ads,Instagram
+395.34,4.95,955,0.69,skincare,0.22,Instagram,Influencer Marketing
+72.19,2.09,5,0.012,generic,0.0,Google Ads,Instagram
+1197.76,4.54,174,-0.003,skincare,0.0,Google Ads,Instagram
+432.93,4.41,423,0.11,skincare,2.33,Instagram,Influencer Marketing
+398.81,4.54,2007,0.586,generic,1.89,Marketplace Ads,Instagram
+64.95,2.01,0,0.03,generic,0.0,Google Ads,Instagram
+251.62,4.86,3388,0.213,skincare,2.04,Instagram,Influencer Marketing
+435.96,4.82,42,-0.009,skincare,0.0,Instagram,Influencer Marketing
+636.95,4.67,12,0.605,generic,1.07,Email,WhatsApp
+33.47,5.0,0,0.48,generic,0.0,Email,WhatsApp
+432.51,4.78,171,0.415,skincare,2.27,Instagram,Influencer Marketing
+341.37,4.81,2485,0.382,generic,0.02,Marketplace Ads,Instagram
+752.87,5.0,28,0.238,generic,0.0,Email,WhatsApp
+183.84,4.84,1340,0.327,haircare,0.0,Marketplace Ads,Instagram
+201.9,4.85,0,-0.03,skincare,1.53,Instagram,Influencer Marketing
+29.72,4.92,2,0.58,generic,0.76,Email,WhatsApp
+670.16,4.88,42,0.583,generic,2.62,Email,WhatsApp
+62.78,4.91,0,0.053,books,2.71,Email,Google Ads
+42.44,4.93,0,0.526,generic,2.95,Email,WhatsApp
+333.54,4.25,195,0.145,skincare,0.0,Instagram,Influencer Marketing
+936.1,4.82,13,0.062,skincare,0.0,Google Ads,Instagram
+30.65,4.94,2,0.53,generic,0.0,Email,WhatsApp
+1123.36,4.79,30,-0.027,skincare,2.31,Google Ads,Instagram
+77.08,5.0,12,0.018,books,2.19,Email,Google Ads
+10.17,0.91,0,-0.061,generic,0.0,Google Ads,Instagram
+812.0,4.93,84,0.414,generic,1.16,Google Ads,Instagram
+356.89,4.83,1012,0.353,generic,0.0,Marketplace Ads,Instagram
+21.07,3.1,5,-0.077,generic,0.32,Google Ads,Instagram
+536.13,4.79,41,0.471,skincare,4.6,Instagram,Influencer Marketing
+560.03,4.71,313,0.273,skincare,2.73,Instagram,Influencer Marketing
+531.3,4.81,869,0.291,haircare,0.0,Marketplace Ads,Instagram
+51.84,0.9,0,0.02,books,0.94,Google Ads,Email
+534.53,4.67,273,0.021,generic,4.48,Google Ads,Instagram
+311.25,4.93,0,0.378,generic,0.0,Email,WhatsApp
+661.01,4.42,3719,0.576,skincare,2.26,Instagram,Influencer Marketing
+549.33,4.86,1000,0.446,skincare,0.0,Instagram,Influencer Marketing
+371.09,4.75,2317,0.482,generic,0.0,Marketplace Ads,Instagram
+663.12,4.06,22,-0.045,skincare,0.0,Instagram,Influencer Marketing
+775.51,4.92,33,0.24,generic,0.0,Email,WhatsApp
+668.41,4.76,29,-0.044,skincare,0.0,Instagram,Influencer Marketing
+64.36,2.05,0,0.063,generic,3.52,Google Ads,Instagram
+273.19,4.93,0,0.406,generic,1.5,Email,WhatsApp
+322.0,4.4,2698,0.603,generic,2.96,Marketplace Ads,Instagram
+184.38,4.73,1499,0.364,skincare,0.0,Instagram,Influencer Marketing
+16.26,4.95,0,0.042,books,1.06,Email,Google Ads
+32.64,1.03,0,0.009,generic,0.0,Google Ads,Instagram
+784.12,5.0,39,0.435,generic,1.34,Email,WhatsApp
+450.78,4.65,0,0.38,skincare,3.57,Instagram,Influencer Marketing
+984.21,4.8,528,0.788,generic,2.45,Instagram,Influencer Marketing
+718.99,4.82,246,0.66,skincare,0.0,Instagram,Influencer Marketing
+205.74,5.0,69,0.047,generic,0.0,Google Ads,Instagram
+328.39,4.72,4,0.654,generic,0.0,Email,WhatsApp
+1039.18,5.0,718,0.155,generic,0.0,Google Ads,Marketplace Ads
+173.36,4.71,0,0.032,skincare,0.0,Instagram,Influencer Marketing
+683.68,4.76,221,0.122,generic,0.0,Google Ads,Instagram
+1055.17,4.98,311,0.277,generic,0.59,Google Ads,Instagram
+22.12,1.05,1,0.6,books,1.41,Email,Instagram
+62.45,1.1,11,0.011,books,0.0,Google Ads,Email
+576.45,4.84,1185,0.428,haircare,0.0,Marketplace Ads,Instagram
+881.75,4.3,20,0.464,generic,0.13,Google Ads,Instagram
+42.41,2.08,0,0.01,generic,0.92,Google Ads,Instagram
+329.19,5.0,2,0.489,generic,0.0,Email,WhatsApp
+331.71,4.87,1081,0.496,generic,1.18,Marketplace Ads,Instagram
+431.57,4.98,1340,0.556,generic,3.2,Marketplace Ads,Instagram
+178.95,4.7,1036,0.298,skincare,4.58,Instagram,Influencer Marketing
+635.88,4.89,593,0.552,haircare,4.05,Marketplace Ads,Instagram
+516.41,4.69,0,0.439,generic,0.0,Instagram,Influencer Marketing
+49.96,3.94,0,0.066,generic,0.52,Google Ads,Instagram
+664.25,4.88,710,0.392,skincare,0.0,Instagram,Influencer Marketing
+574.29,4.81,196,0.37,skincare,0.0,Instagram,Influencer Marketing
+279.06,4.47,864,0.298,generic,2.83,Marketplace Ads,Instagram
+603.07,5.0,16,0.453,generic,0.0,Email,WhatsApp
+379.37,4.93,948,0.501,generic,2.53,Marketplace Ads,Instagram
+701.65,4.26,337,0.131,skincare,0.66,Instagram,Influencer Marketing
+177.98,4.84,1300,0.397,haircare,0.0,Marketplace Ads,Instagram
+640.84,4.74,280,0.389,haircare,2.99,Instagram,Influencer Marketing
+532.23,5.0,8,0.679,generic,4.2,Email,WhatsApp
+622.92,4.71,15,0.418,haircare,1.63,Instagram,Influencer Marketing
+511.06,4.91,848,0.405,skincare,0.0,Instagram,Influencer Marketing
+360.07,4.64,1184,0.326,haircare,2.36,Marketplace Ads,Instagram
+339.18,4.68,115,0.189,haircare,1.74,Google Ads,Instagram
+39.37,0.97,11,0.566,books,1.53,Email,Instagram
+1003.58,4.95,0,0.537,generic,0.0,Google Ads,Email
+399.57,4.75,71,0.266,skincare,0.0,Instagram,Influencer Marketing
+58.92,4.91,0,-0.008,books,0.13,Email,Google Ads
+910.2,4.96,877,0.093,generic,0.34,Google Ads,Marketplace Ads
+741.06,4.89,37,0.296,generic,0.0,Email,WhatsApp
+8.58,3.0,14,-0.004,generic,0.51,Google Ads,Instagram
+251.77,4.78,822,0.595,skincare,0.0,Instagram,Influencer Marketing
+239.35,4.77,943,0.282,skincare,0.0,Instagram,Influencer Marketing
+14.91,0.92,10,-0.017,generic,0.0,Google Ads,Instagram
+403.94,4.73,682,0.417,generic,0.77,Marketplace Ads,Instagram
+1034.28,4.8,83,0.612,haircare,0.0,Google Ads,Instagram
+376.65,4.44,2530,0.652,generic,1.78,Marketplace Ads,Instagram
+521.56,4.98,17,0.469,generic,0.0,Email,WhatsApp
+310.95,4.67,1418,0.598,haircare,1.57,Marketplace Ads,Instagram
+57.09,5.0,0,0.026,books,3.21,Email,Google Ads
+957.76,4.93,535,0.455,generic,0.17,Google Ads,Marketplace Ads
+658.06,5.0,40,0.579,generic,5.0,Email,WhatsApp
+383.44,4.69,228,0.661,skincare,0.75,Instagram,Influencer Marketing
+1060.5,4.86,494,0.285,generic,2.32,Google Ads,Instagram
+56.58,1.07,7,0.06,generic,0.0,Google Ads,Instagram
+436.87,4.73,219,0.296,generic,0.0,Instagram,Influencer Marketing
+30.57,0.91,0,0.679,books,0.0,Email,WhatsApp
+595.22,4.63,921,0.327,haircare,3.65,Marketplace Ads,Instagram
+33.1,5.0,0,0.618,generic,3.07,Email,WhatsApp
+600.89,4.8,901,0.343,haircare,0.0,Marketplace Ads,Instagram
+485.99,5.0,35,0.475,generic,0.0,Email,WhatsApp
+5.03,5.0,5,0.064,books,0.0,Email,Google Ads
+379.38,4.74,173,0.178,generic,3.62,Google Ads,Instagram
+14.01,4.77,0,0.278,skincare,1.01,Instagram,Influencer Marketing
+46.06,5.0,11,0.057,books,0.0,Email,Google Ads

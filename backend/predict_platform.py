@@ -18,7 +18,6 @@ def _normalize_product(product: dict) -> pd.DataFrame:
         "avg_sentiment": product.get("avg_sentiment", 0),
         "discount": product.get("discount", 0),
         "category": str(product.get("category", "unknown")).lower().strip(),
-        "brand": str(product.get("brand", "unknown")).lower().strip(),
     }
     return pd.DataFrame([row])
 
